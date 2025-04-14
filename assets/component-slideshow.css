@@ -199,3 +199,36 @@ slideshow-component:not(.page-width) .slider-buttons {
   opacity: 0;
   transform: scale(0.8);
 }
+
+/* Center slideshow arrows on large screens */
+@media screen and (min-width: 750px) {
+  /* Ensure the slideshow container is relative */
+  .slideshow.banner {
+    position: relative; /* If not already set */
+  }
+
+  /* Position the controls container (which holds the arrows) */
+  .slideshow__controls.slider-buttons {
+    position: absolute !important; /* override any position: relative */
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between; /* pushes previous & next arrows to edges */
+    align-items: center;
+    pointer-events: none; /* so middle area doesn't block clicks on the slide */
+    z-index: 5; /* ensure arrows are above slideshow images */
+    border: none; /* remove border if desired */
+  }
+
+  /* Keep the actual arrow buttons clickable */
+  .slider-button--prev,
+  .slider-button--next {
+    pointer-events: auto;
+  }
+}
+/* Hide the numeric slide counter (like "1 / 2") */
+.slider-counter {
+  display: none !important;
+}
