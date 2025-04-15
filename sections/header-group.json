@@ -28,7 +28,7 @@
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "",
+        "color_scheme": "scheme-6fca51c7-c22d-44e6-935f-193ebce2bbc6",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
@@ -38,10 +38,10 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "top-left",
+        "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-3855f348-4b26-4479-afb0-f73e2cad5f7e",
