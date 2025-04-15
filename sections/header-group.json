@@ -17,28 +17,38 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "FLAT ₹500 OFF on orders above ₹1999!",
+            "link": "#"
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "settings": {}
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     },
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "top-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3855f348-4b26-4479-afb0-f73e2cad5f7e",
+        "menu_color_scheme": "scheme-3855f348-4b26-4479-afb0-f73e2cad5f7e",
         "enable_country_selector": true,
         "enable_language_selector": true,
+        "enable_customer_avatar": true,
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20
