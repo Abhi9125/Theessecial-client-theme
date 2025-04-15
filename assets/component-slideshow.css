@@ -228,6 +228,7 @@ slideshow-component:not(.page-width) .slider-buttons {
     pointer-events: auto;
   }
 }
+
 /* Hide the numeric slide counter (like "1 / 2") */
 .slider-counter {
   display: none !important;
