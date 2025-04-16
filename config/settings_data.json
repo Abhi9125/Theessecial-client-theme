@@ -14,7 +14,7 @@
     "favicon": "shopify://shop_images/essence_PNG.png",
     "type_header_font": "playfair_display_n4",
     "heading_scale": 125,
-    "type_body_font": "lato_n4",
+    "type_body_font": "serif",
     "body_scale": 110,
     "page_width": 1600,
     "spacing_sections": 0,
@@ -103,7 +103,7 @@
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
     "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "scheme-5",
+    "sale_badge_color_scheme": "scheme-3855f348-4b26-4479-afb0-f73e2cad5f7e",
     "sold_out_badge_color_scheme": "scheme-3",
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -199,6 +199,17 @@
           "background_gradient": "",
           "text": "#121212",
           "button": "#2e6739",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#d4b067",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-6fca51c7-c22d-44e6-935f-193ebce2bbc6": {
+        "settings": {
+          "background": "#2e6739",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#faf9f5",
           "button_label": "#ffffff",
           "secondary_button_label": "#d4b067",
           "shadow": "#121212"
